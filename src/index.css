@@ -1,13 +1,11 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('http://fonts.cdnfonts.com/css/google-sans');
+@import url('http://fonts.cdnfonts.com/css/poppins');
+@import url('http://fonts.cdnfonts.com/css/volkhov');
+@import url('http://fonts.cdnfonts.com/css/open-sans');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --font-google-sans: 'Product Sans', sans-serif;
+  --font-poppins: 'Poppins', sans-serif;
+  --font-volkhov: 'Volkhov', sans-serif;
+  --font-open-sans: 'Open Sans', sans-serif;
 }

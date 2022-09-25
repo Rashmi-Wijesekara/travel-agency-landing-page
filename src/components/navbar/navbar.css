@@ -1,0 +1,16 @@
+.navbar__logo-img {
+	width: 114.91px;
+	height: 33.99px;
+}
+.nav-link {
+	font-family: var(--font-google-sans);
+	font-style: normal;
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 22px;
+	color: #212832;
+}
+.navbar {
+	margin-left: 4rem;
+	margin-right: 4rem;
+}

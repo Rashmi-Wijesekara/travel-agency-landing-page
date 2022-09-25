@@ -1,0 +1,8 @@
+export {default as Booking} from './booking/Booking'
+export {default as Destinations} from './destinations/Destinations'
+export {default as Footer} from './footer/Footer'
+export {default as HeroBanner} from './hero-banner/HeroBanner'
+export {default as Logos} from './logos/Logos'
+export {default as Services} from './services/Services'
+export {default as Subscribe} from './subscribe/Subscribe'
+export {default as Testimonials} from './testimonials/Testimonials'
