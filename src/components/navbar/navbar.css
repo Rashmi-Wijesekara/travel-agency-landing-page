@@ -9,8 +9,27 @@
 	font-size: 17px;
 	line-height: 22px;
 	color: #212832;
+	margin: 0 1rem;
 }
 .navbar {
-	margin-left: 4rem;
-	margin-right: 4rem;
+	/* margin-left: 4rem;
+	margin-right: 4rem; */
+	margin: 2rem auto 0;
+}
+.btn-outline-dark {
+	padding: 0rem 1rem;
+}
+.dropdown-menu-light{
+	min-width: 5rem;
+}
+@media only screen and (max-width: 1040px) {
+	.nav-link {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.navbar-nav{
+		width: 50%;
+		margin-right: 1rem;
+	}
 }

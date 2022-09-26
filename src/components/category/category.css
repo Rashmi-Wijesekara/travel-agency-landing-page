@@ -1,0 +1,44 @@
+.category__img {
+	width: 92px;
+	height: 78px;
+}
+.category__outer {
+	padding: 1rem;
+}
+.category__topic {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 27px;
+	text-align: center;
+	color: #1e1d4c;
+	margin: 1rem auto;
+}
+.category__des {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #5e6282;
+}
+.category__img-large {
+	width: 166.87px;
+	height: 153.33px;
+	margin-top: -2.2rem;
+}
+.category__details-large {
+	margin-top: -2.6rem;
+}
+@media only screen and (max-width: 992px) {
+	.category__topic {
+		font-size: 16px;
+		line-height: 20px;
+	}
+	.category__des {
+		font-size: 14px;
+		line-height: 20px;
+	}
+}

@@ -1,0 +1,111 @@
+.hero__img {
+	width: 100%;
+}
+.hero__red-header {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #df6951;
+}
+.hero__header {
+	font-family: var(--font-volkhov);
+	font-style: normal;
+	font-size: 80px;
+	line-height: 89px;
+	letter-spacing: -0.04em;
+	color: #181e4b;
+	padding: 1rem 0;
+}
+.hero__para {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 30px;
+	color: #5e6282;
+	width: 85%;
+}
+.hero__btn-section {
+	margin-top: 1rem;
+}
+.btn-warning {
+	background: #f1a501;
+	box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+	border-radius: 10px;
+	font-family: var(--font-google-sans);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 23px;
+	text-align: center;
+	color: #ffffff;
+	padding: 0.6rem 1rem;
+}
+.hero__play {
+	margin-top: 1rem;
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 17px;
+	line-height: 26px;
+	color: #686d77;
+	margin-left: -1rem;
+}
+.hero__play-btn-container {
+	width: 100%;
+	margin-top: -8px;
+}
+.hero__play-img {
+	width: 72px;
+	height: auto;
+	margin-top: 3px;
+}
+@media only screen and (max-width: 1000px) {
+	.hero__red-header {
+		font-size: 16px;
+	}
+	.hero__header {
+		font-size: 50px;
+		line-height: 60px;
+	}
+	.hero__para {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.hero__play, .btn-warning {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.hero__play {
+		margin-left: 0px;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.hero__para, .hero__red-header, .hero__header {
+		text-align: center;
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.btn-warning {
+		margin-left: auto;
+	}
+	.hero__btn-section {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		justify-content: center;
+	}
+}
+@media only screen and (max-width: 480px) {
+	.hero__play {
+		font-size: 12px;
+		line-height: 16px;
+		margin-left: 10px;
+		margin-top: 1.5rem;
+	}
+}
