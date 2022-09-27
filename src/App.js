@@ -10,6 +10,7 @@ function App() {
       <Services />
       <Destinations />
       <Booking />
+      <Testimonials />
     </div>
   );
 }
