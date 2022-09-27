@@ -9,6 +9,7 @@ function App() {
       <HeroBanner />
       <Services />
       <Destinations />
+      <Booking />
     </div>
   );
 }

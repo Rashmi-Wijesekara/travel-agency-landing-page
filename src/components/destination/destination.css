@@ -56,3 +56,13 @@
 	font-size: 16px;
 	color: #5e6282;
 }
+@media only screen and (max-width: 992px) {
+	.desti__img {
+		margin-left: -4rem;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.desti__img {
+		margin-left: 0;
+	}
+}

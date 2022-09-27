@@ -1,0 +1,22 @@
+.booking__card {
+	width: 100%;
+	margin-top: 9rem;
+	margin-left: 3rem;
+}
+.booking__values {
+	width: 90%;
+}
+@media only screen and (max-width: 1200px) {
+	.booking__values {
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.booking__values {
+		width: 85%;
+	}
+	.booking__card {
+		margin-top: 0;
+		margin-left: 0;
+	}
+}

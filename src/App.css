@@ -98,6 +98,9 @@
 .des {
 	margin-bottom: 2rem;
 }
+.topic-left, .des-left {
+	text-align: left;
+}
 @media only screen and (max-width: 768px) {
 	.topic {
     font-size: 16px;
