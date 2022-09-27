@@ -11,6 +11,7 @@ function App() {
       <Destinations />
       <Booking />
       <Testimonials />
+      <Subscribe />
     </div>
   );
 }

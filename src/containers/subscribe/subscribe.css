@@ -1,0 +1,89 @@
+.subscribe__bg {
+	background-image: url("../../assets/susbcribe.svg");
+	width: 100%;
+	position: absolute;
+	left: 0;
+}
+.subscribe__inner {
+	padding: 4rem;
+	padding-bottom: 4rem;
+}
+.subscribe__topic {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 54px;
+	text-align: center;
+	color: #5e6282;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.subscribe__btn {
+	background: linear-gradient(
+		180deg,
+		#ff946d 0%,
+		#ff7d68 100%
+	);
+	border-radius: 10px;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 23px;
+	text-align: center;
+	color: #ffffff;
+	padding: 12px 20px;
+}
+.subscribe__input {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #39425d;
+	height: 3rem;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+@media only screen and (max-width: 992px) {
+	.subscribe__input {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.subscribe__bg {
+		background-image: url('');
+		right: 0;
+	}
+	.subscribe__btn {
+		margin-left: 0;
+		font-size: 12px;
+		padding: 10px 12px;
+		width: 90%;
+	}
+	.subscribe__input {
+		width: 100%;
+		font-size: 12px;
+	}
+	.subscribe__topic {
+		font-size: 20px;
+		line-height: 28px;
+		margin-bottom: 1rem;
+		width: 100%;
+	}
+	.subscribe__inner {
+		padding: 1rem;
+	}
+	.subscribe__btn-section {
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media only screen and (max-width: 400px) {
+	.subscribe__btn {
+		width: fit-content;
+	}
+}
