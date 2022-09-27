@@ -1,6 +1,6 @@
 import './App.css';
 import {Booking, Destinations, Footer, HeroBanner, Logos, Services, Subscribe, Testimonials} from './containers'
-import {Destination, Navbar, Review} from './components'
+import {Navbar} from './components'
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Navbar />
       <HeroBanner />
       <Services />
+      <Destinations />
     </div>
   );
 }

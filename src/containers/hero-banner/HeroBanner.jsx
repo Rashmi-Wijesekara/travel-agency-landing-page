@@ -6,7 +6,7 @@ import "./heroBanner.css";
 
 const HeroBanner = () => {
 	return (
-		<div className="container-lg mt-5">
+		<div className="container-lg mt-5 scale-up-center">
 			<div className="row justify-content-center">
 				<div className="col-md-7 col-lg-6 ">
 					<div className="hero__red-header">

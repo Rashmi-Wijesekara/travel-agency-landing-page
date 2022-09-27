@@ -1,0 +1,58 @@
+/* .desti__full {
+	filter: drop-shadow(0px 100px 80px rgba(0, 0, 0, 0.02))
+		drop-shadow(
+			0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852)
+		)
+		drop-shadow(
+			0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481)
+		)
+		drop-shadow(0px 20px 13px rgba(0, 0, 0, 0.01))
+		drop-shadow(
+			0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185)
+		)
+		drop-shadow(
+			0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481)
+		);
+} */
+/* .desti__img-container {
+	width: 314px;
+	height: 327px;
+	border-radius: 24px;
+	z-index: 8;
+} */
+.desti__img {
+	width: 314px;
+	object-fit: cover;
+}
+.desti__details-container {
+	background-color: white;
+	width: 314px;
+	height: 130px;
+	margin-top: -7rem;
+	z-index: 10;
+	padding-top: 2rem;
+}
+.desti__details-days {
+	text-align: left;
+}
+.desti__details-topic {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #5e6282;
+}
+.desti__details-dollar {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	color: #5e6282;
+}
+.desti__details-days {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	color: #5e6282;
+}
